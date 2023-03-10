@@ -1,0 +1,42 @@
+.myForm {
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 1rem 5rem;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.myForm input {
+    color: #48484a;
+    font-family: Space Grotesk,Arial,sans-serif;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    width: 30%;
+    border-radius: 4pt 0 0 4pt;
+    padding: 10px;
+}
+
+.myForm input:active, .myForm input:focus, .myForm button:active, .myForm button:focus {
+    border: none;
+}
+
+.myForm input:active, .myForm input:focus {
+    background-color: #ffffff;
+}
+
+.myForm button {
+    background-color: #48484a;
+    border-color: #48484a;
+    color: #f2f2f2;
+    border-radius: 0 4pt 4pt 0!important;
+    width: 200px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.myForm button:hover{
+    background-color: rgba(72,72,74,.85);
+    border-color: rgba(72,72,74,.85);
+}

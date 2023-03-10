@@ -1,0 +1,27 @@
+.weatherWrap {
+    padding: 1rem 5rem;
+}
+
+.city {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Space Grotesk", Arial, sans-serif;
+    color: #48484a;
+    margin-bottom: 0;
+}
+
+img {
+    display: inline-block;
+
+}
+
+.temp {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 0 12px;
+    display: inline-block;
+}
+
+.err {
+    color: #ff0000;
+}
